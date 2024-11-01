@@ -1,0 +1,82 @@
+.employee-card {
+    background: #EBEAF0;
+    padding: 20px;
+    margin: 6px 10px;
+    padding-top: 5px;
+    border-radius: 15px;
+    width: 27%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  h3 {
+    color: black;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  .head p{
+    font-size: small;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+  }
+  
+  p{
+    text-align: left;
+  }
+  .employee-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .card-actions {
+    margin-top: 50px;
+  }
+  
+  .block-btn, .details-btn {
+    margin: 5px;
+    padding: 3px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .block-btn {
+    background-color: #E8F0F2 !important;
+    color: black !important;
+    border: 1px solid black;
+  }
+  .details-btn {
+    background-color: black !important;
+    color: white !important;
+    
+  }
+
+  .block-btn:hover {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid black;
+  }
+  .details-btn:hover {
+    background-color: #E8F0F2 !important;
+    color: black !important;
+    border: 1px solid black;
+  }
+  
+  
+  .block-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .details-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
